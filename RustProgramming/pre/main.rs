@@ -1,4 +1,4 @@
-use std::f64::consts;
+/* use std::f64::consts;
 struct Rectangle {
     a: f64,
     b: f64,
@@ -67,4 +67,59 @@ fn main() {
     let pic = Pic::new(StructType::Rectangle(2.0,3.0));
     let area = pic.area();
     println!("area is {}",area);
+}
+ */
+
+fn main() {
+    // let mut v = vec![1, 2, 3];
+    // assert_eq!(v.remove(1), 2);
+    // assert_eq!(v, [1, 3]);
+    // remove的是下标,时间复杂度为O(n)
+    // v.remove(2);
+    // println!("{:?}",v);
+    // println!("{}",v.get(2))
+
+    // for (i, el) in v.iter().enumerate() {
+    //     println!("The current element is {}", el);
+    //     println!("The current index is {}", i);
+    // }
+
+    // let v = vec!["a".to_string(), "b".to_string()];
+    // for s in v.into_iter() {
+    //     // s has type String, not &String
+    //     println!("{}", s);
+    // }
+    // v.into_iter()
+    // .map(|i|{
+    //     println!("{}", i)
+    // });
+
+    let mut v = vec![1,2,3,4,5,6];
+    // let mut floats = [5f64, 4.0, 1.0, 3.0, 2.0];
+
+    // v.sort_by(|a, b| b.cmp(a));
+    // .into_iter()
+    // .map(|a| a + 1)
+    // .collect();
+
+    // v.reverse();
+    // for i in 0..v.len(){
+    //     if let Some(val) = v.get(i){
+    //         println!("{}",val);
+    //     }
+    // }
+    // println!("{:?}", v);
+
+
+    /*     let mut a = 30;
+
+        let mut counter = 30;
+        while counter >= 0 {
+            counter -= 1;
+            let mut id = a - 1;
+            println!("a为{:?}", a);
+            println!("计数器为:{:?}", counter);
+        } */
+    
+    
 }
